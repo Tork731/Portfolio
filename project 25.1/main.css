@@ -1,0 +1,575 @@
+                        * {
+                            margin: 0;
+                            padding-top: 1px;
+                        }
+                        
+                        body {
+                            overflow-x: hidden;
+                        }
+                        
+                        .contact {
+                            margin-top: -22px;
+                            width: 100%;
+                            height: 64px;
+                            background: #f0f2f4;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-end;
+                            align-items: center;
+                            border-bottom: 2px solid #ccc;
+                        }
+                        
+                        .contact-mail {
+                            width: 1250px;
+                            margin: 0 auto;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-end;
+                        }
+                        
+                        .contact a {
+                            font-size: 23px;
+                            padding: 18px;
+                            text-decoration: none;
+                            color: #000000;
+                        }
+                        
+                        .contact-1 {
+                            border-right: 2px solid #ccc;
+                        }
+                        
+                        .block-1 {
+                            height: 200px;
+                            background: #ffffff;
+                            width: 80%;
+                            margin: 0 auto;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-start;
+                            align-items: center;
+                        }
+                        
+                        .logo-1 {
+                            display: flex;
+                            flex-direction: row;
+                        }
+                        
+                        .logo-1 img {
+                            width: 95px;
+                            height: 70px;
+                        }
+                        
+                        .text h2 {
+                            position: relative;
+                            bottom: 18px;
+                            font-size: 60px;
+                            font-family: calibri;
+                            margin-bottom: 5px;
+                        }
+                        
+                        .text p {
+                            width: 200px;
+                            display: inline;
+                            font-family: calibri;
+                            font-size: 24px;
+                            margin-left: -210px;
+                            position: relative;
+                            top: 43px;
+                            bottom: 10px;
+                        }
+                        
+                        .menu a {
+                            display: inline-block;
+                            text-decoration: none;
+                            color: #000;
+                            padding: 10px 57px 10px 30px;
+                            transition: 0.3 ease;
+                        }
+                        
+                        .menu {
+                            width: 1200px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-end;
+                            align-items: center;
+                        }
+                        
+                        .menu ul li {
+                            font-size: 22px;
+                            color: #000;
+                        }
+                        
+                        .menu ul {
+                            width: 900px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-end;
+                            align-items: center;
+                            margin: 0 auto;
+                        }
+                        
+                        .menu a:hover {
+                            color: red;
+                        }
+                        
+                        .home {
+                            list-style-type: none;
+                        }
+                        
+                        .consultation {
+                            display: block;
+                            background: red;
+                            text-align: center;
+                            border-radius: 8px;
+                        }
+                        
+                        .consultation li {
+                            list-style-type: none;
+                            text-align: center;
+                        }
+                        
+                        .consultation a {
+                            color: #ffffff;
+                            font-size: 22px;
+                            padding: 15px 25px;
+                            transition: 0.3 ease;
+                        }
+                        
+                        .consultation a:hover {
+                            color: #000000;
+                        }
+                        
+                        .background-1 {
+                            width: 100%;
+                            height: 1000px;
+                            background: url(img/background-1.png) no-repeat center/cover;
+                        }
+                        
+                        .background-1 h2 {
+                            text-align: center;
+                            margin-top: 350px;
+                            font-size: 60px;
+                            color: #ffffff;
+                        }
+                        
+                        .background-1 h4 {
+                            text-align: center;
+                            font-family: calibri;
+                            font-size: 38px;
+                            color: #ffffff;
+                            font-weight: 400;
+                        }
+                        
+                        .button-1 {
+                            display: block;
+                            background: #f8cd53;
+                            padding: 30px 40px;
+                            margin: 35 auto;
+                            text-align: center;
+                            width: 300px;
+                            border-radius: 8px;
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            font-size: 23px;
+                            color: #ffffff;
+                            cursor: pointer;
+                        }
+                        
+                        .heading {
+                            text-align: center;
+                            margin: 75px auto;
+                            font-family: calibri;
+                        }
+                        
+                        .heading-h2 {
+                            margin-top: 10px;
+                            font-size: 45px;
+                            text-align: center;
+                        }
+                        
+                        .heading p {
+                            font-size: 20px;
+                        }
+                        
+                        .heading div {
+                            display: block;
+                            height: 4px;
+                            width: 48px;
+                            background: #000;
+                            margin: 5px auto;
+                        }
+                        
+                        .slide {
+                            height: 500px;
+                            width: auto;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                        }
+                        
+                        .slide div {
+                            width: 14%;
+                            height: auto;
+                            padding: 20px 75px;
+                        }
+                        
+                        .slide div img {
+                            display: block;
+                            text-align: center;
+                            margin: 0 auto;
+                        }
+                        
+                        .slide h3 {
+                            padding-top: 20px;
+                            font-size: 25px;
+                            text-align: center;
+                        }
+                        
+                        .slide p {
+                            padding-top: 20px;
+                            font-size: 20px;
+                            text-align: center;
+                        }
+                        
+                        .background-3 {
+                            background: #f3f3f3;
+                            height: auto;
+                            padding-bottom: 100px;
+                        }
+                        
+                        .step-1 {
+                            position: relative;
+                            background: #ffffff;
+                            left: 15%;
+                            width: 70%;
+                            height: 266px;
+                            display: flex;
+                            flex-direction: row;
+                            margin-bottom: 40px;
+                        }
+                        
+                        .step-1 p {
+                            margin-top: 10px;
+                        }
+                        
+                        .step-text {
+                            margin: 80px 80px;
+                        }
+                        
+                        .step-text2 {
+                            margin: 80px 80px;
+                        }
+                        
+                        .step-img {
+                            background: red;
+                            width: 110px;
+                            height: 110px;
+                            position: absolute;
+                            left: 330px;
+                            top: 75px;
+                            border: 2px solid #fff;
+                            border-radius: 5px;
+                            text-align: center;
+                        }
+                        
+                        .step-img h3 {
+                            margin: 13px;
+                            color: #fff;
+                            font-size: 55px;
+                            font-weight: bold;
+                        }
+                        
+                        .step-img p {
+                            margin-top: -24px;
+                            color: #fff;
+                            font-size: 24px;
+                            padding: 0;
+                        }
+                        
+                        .heading-h {
+                            margin-top: 50px;
+                            font-weight: bold;
+                            font-size: 18px;
+                            margin-top: -20px;
+                        }
+                        
+                        .step-2 {
+                            position: relative;
+                            background: #ffffff;
+                            left: 15%;
+                            width: 70%;
+                            height: 266px;
+                            display: flex;
+                            flex-direction: row-reverse;
+                            margin-bottom: 40px;
+                        }
+                        
+                        .step-2 p {
+                            margin: 30px 15px;
+                        }
+                        
+                        .step-img2 {
+                            background: red;
+                            width: 110px;
+                            height: 110px;
+                            position: absolute;
+                            right: 340px;
+                            top: 75px;
+                            border: 2px solid #fff;
+                            border-radius: 5px;
+                            text-align: center;
+                        }
+                        
+                        .step-img2 h3 {
+                            margin: 13px;
+                            color: #fff;
+                            font-size: 55px;
+                            font-weight: bold;
+                        }
+                        
+                        .step-img2 p {
+                            margin-top: -24px;
+                            color: #fff;
+                            font-size: 24px;
+                            padding: 0;
+                        }
+                        
+                        .step-2 h4 {
+                            display: block;
+                            float: right;
+                            font-size: 18px;
+                            margin-right: 20px;
+                        }
+                        
+                        .step-img3 {
+                            background: red;
+                            width: 110px;
+                            height: 110px;
+                            position: absolute;
+                            left: 320px;
+                            top: 75px;
+                            border: 2px solid #fff;
+                            border-radius: 5px;
+                            text-align: center;
+                        }
+                        
+                        .background-4 {
+                            background-color: #de2b24;
+                            height: 900px;
+                            color: #fff;
+                        }
+                        
+                        .background-4 .heading div {
+                            background-color: #fff
+                        }
+                        
+                        .slider {
+                            width: 1026px;
+                            height: 50%;
+                            text-align: center;
+                            margin: 0 auto;
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                            border: 0px;
+                        }
+                        
+                        .slider div {
+                            display: block;
+                            padding: 0;
+                        }
+                        
+                        .slider-1 {
+                            background-color: #f35e59;
+                            width: 255px;
+                            height: 255px;
+                        }
+                        
+                        .slider-text {
+                            margin: 50px auto;
+                        }
+                        
+                        .slider-text img {
+                            padding-top: 20px;
+                        }
+                        
+                        .slider-text h3 {
+                            padding-top: 35px;
+                            font-size: 22px;
+                        }
+                        
+                        .background-5 {
+                            background-color: #1287bf;
+                            height: 900px;
+                        }
+                        
+                        .background-5 h2 {
+                            color: #fff;
+                        }
+                        
+                        .background-5 p {
+                            color: #fff;
+                        }
+                        
+                        .ukz {
+                            position: relative;
+                            margin: 0 auto;
+                            text-align: center;
+                            border-radius: 70px;
+                            border: 3px solid #ffffff;
+                            border-radius: 55%;
+                            padding: 20px;
+                            width: 50px;
+                            height: 50px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            cursor: pointer
+                        }
+                        
+                        .ukz img {}
+                        
+                        .form-reg {
+                            display: none;
+                            background-color: #ffffff;
+                            margin: 80px auto;
+                            width: 700px;
+                            height: 470px;
+                        }
+                        
+                        .block {
+                            background-color: #ffffff;
+                            width: 50px;
+                            height: 50px;
+                            margin: -27 auto;
+                            transform: rotate(45deg);
+                        }
+                        
+                        .form-reg p {
+                            color: #000;
+                            text-align: center;
+                            padding: 50px;
+                        }
+                        
+                        .pole form {
+                            text-align: center;
+                            margin: 20px auto;
+                            position: absolute;
+                        }
+                        
+                        .vvod input {
+                            padding: 15px 300px 15px 10px;
+                            /*margin: 0 auto;*/
+                            border: 1px solid #bbbbbb;
+                            border-radius: 5px;
+                        }
+                        
+                        .vvod ul {
+                            list-style-type: none;
+                            margin-left: 80px;
+                        }
+                        
+                        .vvod ul li {
+                            padding: 5px;
+                            flex-direction: row;
+                        }
+                        
+                        #clos {
+                            position: absolute;
+                            right: -10px;
+                            top: -10px;
+                            padding: 10px;
+                            display: block;
+                            background-color: #de2b24;
+                            border-radius: 100px;
+                            border: 3px solid white;
+                            cursor: pointer;
+                        }
+                        
+                        .clos .pole {
+                            position: relative;
+                        }
+                        
+                        .form-reg {
+                            position: relative
+                        }
+                        
+                        input:hover {
+                            box-shadow: 0 0 0 2px #3a8e99;
+                        }
+                        
+                        .btsubmit a {
+                            display: block;
+                            background: #de2b24;
+                            padding: 20px 40px;
+                            margin: 35 auto;
+                            text-align: center;
+                            width: 120px;
+                            border-radius: 5px;
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            font-size: 15px;
+                            color: #ffffff;
+                            text-decoration: none;
+                            cursor: pointer;
+                            -webkit-border-radius: 5px;
+                            -moz-border-radius: 5px;
+                            -ms-border-radius: 5px;
+                            -o-border-radius: 5px;
+                        }
+                        
+                        .background-6 {
+                            margin-top: -1px;
+                            background-color: #2a2a2a;
+                            width: 100%;
+                            height: 500px;
+                        }
+                        
+                        .background-6 h3 {
+                            margin: 75px auto;
+                            text-align: center;
+                            font-size: 26px;
+                            color: #ffffff;
+                        }
+                        
+                        .messerger {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                        }
+                        
+                        .messerger .ms {
+                            border-collapse: collapse;
+                            border: 2px solid #515151;
+                            padding: 10px 16px;
+                            margin: 5px 20px;
+                            border-radius: 3px;
+                            -webkit-border-radius: 3px;
+                            -moz-border-radius: 3px;
+                            -ms-border-radius: 3px;
+                            -o-border-radius: 3px;
+                            cursor: pointer;
+                        }
+                        
+                        .ms:hover {
+                            border: 2px solid #de2b24;
+                            transition: 0.5s;
+                            -webkit-transition: 0.5s;
+                            -moz-transition: 0.5s;
+                            -ms-transition: 0.5s;
+                            -o-transition: 0.5s;
+                        }
+                        
+                        .background-6 p {
+                            text-align: center;
+                            margin-top: 30px;
+                            color: #b5b5b5;
+                            font-size: 20px;
+                        }
+                        
+                        .form-s {
+                            margin: 60px auto;
+                            text-align: center;
+                            padding: 20px 70px 5px;
+                        }
